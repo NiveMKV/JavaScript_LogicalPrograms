@@ -5,7 +5,6 @@ function maskify(cc) {
   for(let i=1; i<=maskCharacCount; i++)
   {
     maskedNumber += '#';
-  }
-  
+  }  
   return maskedNumber = maskedNumber +cc.replace(cc.substring(0,maskCharacCount),"");
 }
